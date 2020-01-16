@@ -1,4 +1,4 @@
-<p align="center"><img width=40% src="https://i.imgur.com/Do9anPh.jpg?1"></p>
+<p align="center"><img width=50% src="https://i.imgur.com/gjcSw7Z.png"></p>
 
 <p>
   <img align="center" src="https://img.shields.io/badge/SQLite-3.30.1-336791">

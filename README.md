@@ -23,11 +23,11 @@
   Totally Accurate Military Simulator is a CLI turn-based role-playing strategy game. Take command of your troops and lead them to victory against different characters and enemies from across pop culture. Create and design your own units with different classes and custom move-sets. View your unit’s service record to see how well they fare in battle.  
   
   ### Features
-  - Create up to 3 saves files to continue your game
-  - Create (Recruit) your own character
+  - Create up to 3 saves files to save and continue your progress
+  - Create (Recruit) your own custom character
     - Choose the class and create a move-set for the character 
-  - View a specific character's battle record
-  - Advanced battle logic
+  - View a character's battle record
+  - Battle enemies with an advanced battle system
     - Characters with attributes that incorporates strengths and weaknesses
     - Various move-set including attack, defense and special moves
     - Battle interface with character models, health bar and status effect

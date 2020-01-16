@@ -19,7 +19,7 @@ class Interface
       puts "\n"
       pid = fork{ exec 'afplay /Users/Jacky/Desktop/ssb8bit.mp3'}
       # pid = fork{ exec 'afplay ../models/ss8bit.mp3'}
-      puts "\nWelcome to the Perfectly-Accurate Military Simulator"
+      puts "\nWelcome to the Totally-Accurate Military Simulator"
       @prompt.select("-----------------------------------------------------") do |menu|
         menu.choice "New Game", -> { User.new_game }
         menu.choice "Continue Game", -> { User.continue_game }

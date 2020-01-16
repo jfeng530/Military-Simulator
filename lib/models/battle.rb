@@ -197,7 +197,7 @@ class Battle < ActiveRecord::Base
                 self.lose_screen
             end  
         end
-        self.display_screen
+        # self.display_screen
         
         all_moves = self.unit.moves.map do |move|
             { move.name => move }

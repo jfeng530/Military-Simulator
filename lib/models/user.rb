@@ -205,7 +205,7 @@ class User < ActiveRecord::Base
         puts self.display_eli
         puts "\nLoading..."
         puts "It's important to stay hydrated, soldier!"
-        pid = fork{ exec 'afplay /Users/Jacky/Desktop/ssb8bit.mp3'}
+        pid = fork{ exec 'afplay assets/ssb8bit.mp3'}
         sleep 3
         @@prompt.select("Press ENTER to continue") do |menu|
             menu.choice "Continue", -> { self.main_menu }
@@ -226,7 +226,7 @@ class User < ActiveRecord::Base
         system "clear"
         puts self.display_eli
         puts "It's important to stay hydrated, soldier!"
-        pid = fork{ exec 'afplay /Users/Jacky/Desktop/ssb8bit.mp3'}
+        pid = fork{ exec 'afplay assets/ssb8bit.mp3'}
         sleep 2
         self.main_menu
     end

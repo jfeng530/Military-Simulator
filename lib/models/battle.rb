@@ -22,7 +22,7 @@ class Battle < ActiveRecord::Base
         sleep 1
         puts "While you are waiting, why don't hydrate yourself, soldier?"
         sleep 3
-        pid = fork{ exec 'afplay /Users/Jacky/Desktop/fightvol.mp3'}
+        pid = fork{ exec 'afplay assets/fightvol.mp3'}
         @@prompt.select("Press ENTER to continue") do |menu|
             menu.choice "Continue", -> { self.user_battle_menu }
         end
@@ -639,7 +639,7 @@ class Battle < ActiveRecord::Base
         enemy_health = self.enemy_hp
         self.update(winner: self.unit.name)
         self.update(loser: self.enemy.name)
-        pid = fork{ exec 'afplay /Users/Jacky/Desktop/win.mp3'}
+        pid = fork{ exec 'afplay assets/win.mp3'}
         puts self.victory_image
         puts "\n"
         puts "WINNER"
@@ -664,7 +664,7 @@ class Battle < ActiveRecord::Base
         enemy_health = self.enemy_hp
         self.update(winner: self.enemy.name)
         self.update(loser: self.unit.name)
-        pid = fork{ exec 'afplay /Users/Jacky/Desktop/losemario.mp3'}
+        pid = fork{ exec 'afplay assets/losemario.mp3'}
         puts self.loser_image
         puts "\n"
         puts "LOSER"

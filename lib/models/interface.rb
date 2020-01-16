@@ -17,7 +17,7 @@ class Interface
       system "clear"
       puts self.menu_image
       puts "\n"
-      pid = fork{ exec 'afplay /Users/Jacky/Desktop/ssb8bit.mp3'}
+      pid = fork{ exec 'afplay assets/ssb8bit.mp3'}
       # pid = fork{ exec 'afplay ../models/ss8bit.mp3'}
       puts "\nWelcome to the Totally-Accurate Military Simulator"
       @prompt.select("-----------------------------------------------------") do |menu|

@@ -24,13 +24,13 @@
   
   ### Features
   - Create up to 3 saves files to save and continue your progress
-  - Create (Recruit) your own custom character
+  - Create (recruit) your own custom character
     - Choose the class and create a move-set for the character 
   - View a character's battle record
   - Battle enemies with an advanced battle system
-    - Characters with attributes that incorporates strengths and weaknesses
-    - Various move-set including attack, defense and special moves
-    - Battle interface with character models, health bar and status effect
+    - Characters with attributes that pertain to its strengths and weaknesses
+    - Various move-set including attack, defense, and special moves
+    - Battle interface with character models, health bar, and status effect
   - Loading Screens
   
   ### Challenges
@@ -40,7 +40,7 @@
     - Created 'status effects' for characters in battle to add strategy to combat
       - Characters can be afflicted with status effects that persist throughout battle (‘Hurt’, ‘Protected’, ‘Amped-up’) 
     - Created moves with different effects (Damage, Heal, Charge-Up, Protect, Hurt) to add strategy in combat
-    	 - Each move has a specific property associate with it
+    	 - Each move has a specific property associated with it
       - Conditional statements check for property and, if applicable, status effect of character before 'activating' move
   - Creating the proper relationship between two instances of a `Character` model
     - Created a self-referential relationship between two instances of a `Character`, joined by the `Battle` class

@@ -1,13 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.2.3)
-      activesupport (= 5.2.3)
-    activerecord (5.2.3)
-      activemodel (= 5.2.3)
-      activesupport (= 5.2.3)
+    activemodel (5.2.4.5)
+      activesupport (= 5.2.4.5)
+    activerecord (5.2.4.5)
+      activemodel (= 5.2.4.5)
+      activesupport (= 5.2.4.5)
       arel (>= 9.0)
-    activesupport (5.2.3)
+    activesupport (5.2.4.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -15,14 +15,14 @@ GEM
     arel (9.0.0)
     coderay (1.1.2)
     colorize (0.8.1)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.8)
     equatable (0.6.1)
     faker (2.5.0)
       i18n (~> 1.6.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     method_source (0.9.2)
-    minitest (5.12.2)
+    minitest (5.14.4)
     mustermann (1.0.3)
     necromancer (0.5.0)
     pastel (0.7.3)
@@ -57,7 +57,7 @@ GEM
       tty-screen (~> 0.7)
       wisper (~> 2.0.0)
     tty-screen (0.7.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.9)
       thread_safe (~> 0.1)
     wisper (2.0.0)
 
@@ -65,7 +65,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (~> 5.2.3)
+  activerecord (~> 5.2.4)
   colorize
   faker
   pry
